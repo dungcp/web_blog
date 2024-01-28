@@ -1,0 +1,47 @@
+.footer {
+  background-color: #f3f4f6;
+  height: 200px;
+}
+.container-footer {
+  padding: 30px 0 30px;
+  text-align: center;
+}
+.social-icons-footer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.social-icons-footer i {
+  color: #000;
+  opacity: 1;
+}
+.social-icons-footer i:hover {
+  opacity: 0.5;
+}
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  background-color: #474747;
+  color: #fdfdfd;
+  padding: 16px 32px;
+}
+.button-accept {
+  margin-top: 8px;
+  padding: 12px 32px;
+  border-radius: 20px;
+  background-color: #474747;
+  border: 1px solid #0dcaf0;
+  color: #0dcaf0;
+  cursor: pointer;
+}
+.button-accept:hover {
+  background-color: #0dcaf0;
+  color: #fff;
+}
