@@ -4,6 +4,143 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog HTML</title>
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
   </head>
-  <body></body>
+  <body>
+    <section id="blog">
+      <nav class="nav-bar">
+        <ul>
+          <li class="subscribe">
+            <input type="text" placeholder="Enter your email address" />
+            <a href="#">Subscribe</a>
+          </li>
+          <li class="nav-bar-title">Our Blog</li>
+          <li class="nav-bar-search">
+            <input type="text" placeholder="Search..." />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </li>
+        </ul>
+      </nav>
+      <article class="blog-post-content">
+        <article class="blog-content-author">
+          <div class="back">
+            <a href="/index.html">
+              Back To Home Page
+              <i class="fa-solid fa-backward-step"></i>
+            </a>
+          </div>
+          <div class="author-details">
+            <div class="avatar">
+              <img src="../assets/images//logo/avatar.jpg" alt="avatar" />
+            </div>
+            <div class="blog-content-author-name">
+              <h2>DungHM3</h2>
+              <p class="role">Web Front-End Developer</p>
+              <span class="company">
+                Company: FPT SoftWare
+                <img
+                  src="../assets/images/logo/fpt-logo.png"
+                  alt="fpt-software"
+                  class="icon-fpt"
+                />
+              </span>
+              <div class="social-media">
+                <a href="">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <p>
+            Front-End web developer in HTML, CSS, Javascipt, I create website
+            blog sharing knowledge.The Front-End Developer creates things that
+            the user sees.
+          </p>
+        </article>
+        <article class="blog-content-right">
+          <div class="blog-post-image">
+            <img src="../assets/images/logo/html_png.webp" alt="html" />
+          </div>
+          <h1>HTML for Absolute Beginners</h1>
+          <div class="time-calendar">
+            <i class="fa-solid fa-calendar"></i>
+            <span>January 8, 2024</span>
+          </div>
+          <div class="blog-post-content-detail">
+            <h2>What is HTML?</h2>
+            <p>
+              HTML is the
+              <strong>language in which most websites are written</strong>
+              . HTML is used to create pages and make them functional.
+            </p>
+            <h3>Basic Construction of an HTML Page</h3>
+            <img
+              src="../assets/images/logo/html-homepage-layout.webp"
+              alt="module"
+            />
+            <h2>What are Tags and Attributes?</h2>
+
+            <p>
+              They work together but perform different functions – it is worth
+              investing 2 minutes in
+            </p>
+            <h2>What Are HTML Tags?</h2>
+            <p>
+              Tags are used to
+              <strong>mark up the start of an HTML element</strong> and they are
+              usually enclosed in angle brackets.
+            </p>
+            <h2>What are HTML Attributes?</h2>
+            <p>
+              contain additional pieces of information. Attributes take the form
+              of an opening tag and additional info is placed inside.
+            </p>
+            <h2>Golden Rules To Remember</h2>
+            <p>
+              When using multiple tags, the tags must be closed in the order in
+              in which they were opened.
+            </p>
+          </div>
+        </article>
+      </article>
+      <footer class="footer">
+        <div class="container-footer">
+          <p>
+            Blog is optimized for learning and training. Examples might be
+            simplified to improve reading and learning.
+          </p>
+          <ul class="social-icons-footer">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-github"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-google"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="cookie-box">
+          <p class="description">
+            The website aims to share knowledge about basic web programming
+          </p>
+          <button class="button-accept">I Accept</button>
+        </div>
+      </footer>
+    </section>
+  </body>
 </html>
