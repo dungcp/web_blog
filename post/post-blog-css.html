@@ -4,6 +4,154 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog Css</title>
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
   </head>
-  <body></body>
+  <body>
+    <section id="blog">
+      <nav class="nav-bar">
+        <ul>
+          <li class="subscribe">
+            <input type="text" placeholder="Enter your email address" />
+            <a href="#">Subscribe</a>
+          </li>
+          <li class="nav-bar-title">Our Blog</li>
+          <li class="nav-bar-search">
+            <input type="text" placeholder="Search..." />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </li>
+        </ul>
+      </nav>
+      <article class="blog-post-content">
+        <article class="blog-content-author">
+          <div class="back">
+            <a href="/index.html">
+              Back To Home Page
+              <i class="fa-solid fa-backward-step"></i>
+            </a>
+          </div>
+          <div class="author-details">
+            <div class="avatar">
+              <img src="../assets/images//logo/avatar.jpg" alt="avatar" />
+            </div>
+            <div class="blog-content-author-name">
+              <h2>DungHM3</h2>
+              <p class="role">Web Front-End Developer</p>
+              <span class="company">
+                Company: FPT SoftWare
+                <img
+                  src="../assets/images/logo/fpt-logo.png"
+                  alt="fpt-software"
+                  class="icon-fpt"
+                />
+              </span>
+              <div class="social-media">
+                <a href="">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <p>
+            Front-End web developer in HTML, CSS, Javascipt, I create website
+            blog sharing knowledge.The Front-End Developer creates things that
+            the user sees.
+          </p>
+        </article>
+        <article class="blog-content-right">
+          <div class="blog-post-image">
+            <img
+              src="../assets/images/logo/link-a-stylesheet-css-file.webp"
+              alt="css"
+            />
+          </div>
+          <h1>How to Link CSS to HTML Files in Web Development</h1>
+          <div class="time-calendar">
+            <i class="fa-solid fa-calendar"></i>
+            <span>January 8, 2024</span>
+          </div>
+          <div class="blog-post-content-detail">
+            <p>Key pointers from this article:</p>
+            <ul>
+              <li>
+                The <strong>link</strong> tag, placed within the head section of
+                an HTML document, is used to link CSS files.
+              </li>
+              <li>
+                Attributes of the link tag include rel=”stylesheet” to define
+                the relationship between the HTML and linked file, and
+                type=”text/css” to specify the stylesheet type.
+              </li>
+              <li>
+                The href attribute is used to specify the path to the CSS file.
+              </li>
+            </ul>
+            <h3>How to Link CSS to HTML File Externally</h3>
+            <img
+              src="../assets/images/logo/link-css-to-html.png"
+              alt="link css"
+            />
+            <p>
+              While there are multiple approaches linking CSS to an HTML file,
+              the most efficient way is to link an external style sheet to an
+              HTML document. It requires a separate document with a css. On that
+              note, if you want to edit a specific HTML element, it might be
+              better to use the inline style method. Meanwhile, the internal or
+              embedded style might be ideal for applying CSS rules to a single
+              page.
+            </p>
+            <h3>Conclusion</h3>
+            <p>
+              Embedding CSS rules to HTML elements can be time-consuming and
+              energy-wasting. Luckily, external style sheets make the process
+              more efficient.
+            </p>
+            <p>
+              CSS external style sheets are documents containing a list of style
+              rules. Link them to an HTML document, and you’ll be able to change
+              multiple pages at once, avoiding code bloat and keeping your HTML
+              structure clean.
+            </p>
+          </div>
+        </article>
+      </article>
+      <footer class="footer">
+        <div class="container-footer">
+          <p>
+            Blog is optimized for learning and training. Examples might be
+            simplified to improve reading and learning.
+          </p>
+          <ul class="social-icons-footer">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-github"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-google"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="cookie-box">
+          <p class="description">
+            The website aims to share knowledge about basic web programming
+          </p>
+          <button class="button-accept">I Accept</button>
+        </div>
+      </footer>
+    </section>
+  </body>
 </html>

@@ -4,6 +4,172 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog Js</title>
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
   </head>
-  <body></body>
+  <body>
+    <section id="blog">
+      <nav class="nav-bar">
+        <ul>
+          <li class="subscribe">
+            <input type="text" placeholder="Enter your email address" />
+            <a href="#">Subscribe</a>
+          </li>
+          <li class="nav-bar-title">Our Blog</li>
+          <li class="nav-bar-search">
+            <input type="text" placeholder="Search..." />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </li>
+        </ul>
+      </nav>
+      <article class="blog-post-content">
+        <article class="blog-content-author">
+          <div class="back">
+            <a href="/index.html">
+              Back To Home Page
+              <i class="fa-solid fa-backward-step"></i>
+            </a>
+          </div>
+          <div class="author-details">
+            <div class="avatar">
+              <img src="../assets/images//logo/avatar.jpg" alt="avatar" />
+            </div>
+            <div class="blog-content-author-name">
+              <h2>DungHM3</h2>
+              <p class="role">Web Front-End Developer</p>
+              <span class="company">
+                Company: FPT SoftWare
+                <img
+                  src="../assets/images/logo/fpt-logo.png"
+                  alt="fpt-software"
+                  class="icon-fpt"
+                />
+              </span>
+              <div class="social-media">
+                <a href="">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <p>
+            Front-End web developer in HTML, CSS, Javascipt, I create website
+            blog sharing knowledge.The Front-End Developer creates things that
+            the user sees.
+          </p>
+        </article>
+        <article class="blog-content-right">
+          <div class="blog-post-image">
+            <img
+              src="../assets/images/logo/module-pattern.webp"
+              alt="module-pattern"
+            />
+          </div>
+          <h1>
+            Understanding the Module Pattern in JavaScript: Encapsulation for
+            Better Code
+          </h1>
+          <div class="time-calendar">
+            <i class="fa-solid fa-calendar"></i>
+            <span>January 4, 2024</span>
+          </div>
+          <div class="blog-post-content-detail">
+            <h2>What is the Module Pattern?</h2>
+            <p>
+              The Module Pattern is a design pattern that leverages closures to
+              create private and public encapsulated components. It allows
+              developers to organize code into modules, restricting access to
+              certain variables and functions, mimicking the concept of private
+              and public members within a module.
+            </p>
+            <h3>Creating Modules with the Module Pattern</h3>
+            <img
+              src="../assets/images/logo/module-pattern-js.webp"
+              alt="module"
+            />
+            <h2>Benefits of the Module Pattern</h2>
+            <ul>
+              <li>
+                <strong
+                  >Modules allow you to keep certain values within your file
+                  private.</strong
+                >
+              </li>
+            </ul>
+            <p>
+              The Module Pattern enables encapsulation, keeping data and
+              functionality private within the module, preventing unintended
+              access and modification from external code.
+            </p>
+            <ul>
+              <li>
+                <strong>Cleaner Code and Reduced Global Scope Pollution</strong>
+              </li>
+            </ul>
+            <p>
+              By encapsulating code within modules, the Module Pattern reduces
+              the use of global variables, preventing conflicts and making code
+              more maintainable.
+            </p>
+            <ul>
+              <li>
+                <strong
+                  >Split up your code into smaller, reusable pieces.</strong
+                >
+              </li>
+            </ul>
+            <p>
+              Modules can expose only necessary functionalities while hiding
+              implementation details, promoting code reuse and abstraction.
+            </p>
+            <h2>Conclusion</h2>
+            <p>
+              The Module Pattern in JavaScript provides a powerful way to
+              structure code, enabling encapsulation, information hiding, and
+              better organization. By leveraging closures, it fosters cleaner,
+              more maintainable, and reusable codebases, contributing to
+              scalable and efficient JavaScript applications.
+            </p>
+          </div>
+        </article>
+      </article>
+      <footer class="footer">
+        <div class="container-footer">
+          <p>
+            Blog is optimized for learning and training. Examples might be
+            simplified to improve reading and learning.
+          </p>
+          <ul class="social-icons-footer">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-github"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-google"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="cookie-box">
+          <p class="description">
+            The website aims to share knowledge about basic web programming
+          </p>
+          <button class="button-accept">I Accept</button>
+        </div>
+      </footer>
+    </section>
+  </body>
 </html>

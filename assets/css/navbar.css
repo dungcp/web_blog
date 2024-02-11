@@ -1,7 +1,13 @@
 .nav-bar {
   height: 58px;
   border-bottom: 1px solid #1e81b0;
-  background-color: #00ffd7;
+  background-color: #ece5e5;
+  width: 100%;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  left: 0;
+  margin: 0;
+  right: 0;
 }
 .nav-bar ul {
   display: flex;
@@ -19,6 +25,9 @@
   align-items: center;
   gap: 8px;
   font-size: 24px;
+}
+.nav-bar-search i {
+  cursor: pointer;
 }
 .nav-bar-search input {
   padding: 8px 16px;
@@ -54,4 +63,14 @@
 }
 .subscribe input:focus {
   border: 1px solid #8b85c9;
+}
+
+@media (max-width: 667px) {
+  .nav-bar .subscribe,
+  .nav-bar .nav-bar-search {
+    display: none;
+  }
+  .nav-bar {
+    width: 100%;
+  }
 }
